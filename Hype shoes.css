@@ -1,0 +1,125 @@
+body, h1, h2, h3, h4, p, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;  
+    text-align: center;
+    font-size: 3.0em; 
+    color: #e74c3c;  
+    padding: 20px 0;
+    margin-bottom: 40px;
+    position: relative;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+img {
+    display: block;
+    margin: 0 auto 15px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; 
+}
+
+img:hover {
+    transform: scale(1.15); 
+}
+
+
+h4 {
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+h6 {
+    text-align: center;
+    color: #95a5a6;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #3caee7;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    background-color: #34495e;
+    padding: 20px 0;
+    margin-top: 40px;
+    color: white;
+}
+
+footer form {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer label, footer input {
+    margin: 10px;
+    padding: 5px;
+    flex: 1;
+}
+
+footer input {
+    width: 100%; 
+    border: none; 
+    border-bottom: 2px solid #95a5a6; 
+    padding: 10px 5px; 
+    border-radius: 0; 
+    outline: none;
+    background: transparent;
+    color: white;
+    transition: border-color 0.3s; 
+    margin-top: 10px;
+}
+
+footer input::placeholder {
+    color: #bdc3c7; 
+}
+
+
+footer input:focus {
+    border-bottom-color: white; 
+}
+
+footer label {
+    display: block;
+    margin-bottom: 5px; 
+    font-weight: bold; 
+    opacity: 0.8; 
+}
+
